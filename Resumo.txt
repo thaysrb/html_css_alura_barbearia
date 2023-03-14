@@ -1,0 +1,190 @@
+***HTML***
+~> Doctype - passa informações ao navegador sobre qual HTML está sendo usado
+~> UFT-8 - acentuação
+~> lang="pt-br" - traduz para qual linguagem está sendo utilizada
+~> <head> - passa as informações para o navegador referente ao nome do site (da pra mudar o nome)
+~> <body> - é onde fica as tags principais, é o corpo do site, onde fica o conteúdo
+~> <em> - deixa em itálico
+~> Listas ordenadas, a ordem da lista importa e o primeiro contéudo é mais importante que o primeiro, que o segundo, terceiro e assim por diante.
+~> Nas listas não ordenadas (tag <ul>), a ordem dos links não importam.
+~> <a> - serve como uma âncora, um link que leva para outro poto na internet.
+~> text-transform é a responsável pela transformação do texto para maiúsculo, quando usamos o valor uppercase.
+~> Main - é a coisa mais importante, no exemplo do alura é o tipo do produto.
+~> Tags semânticas fazem com que o navegador entenda melhor o conteúdo e com isso recarregue melhor a página.
+~> Form - cria um formulário
+~> Label - cria uma etiqueta para um input (label e input sempre "andam" juntos"). Tem-se uma informação para que serve a entrada de dados e efetivamente a entrada de dados.
+<Fieldset> - é usada para criar uma divisão no nosso formulário, com um ou mais <input>
+~> Input - geralmente é único, tem apenas uma entrada de nome e sobrenome do usuário
+~> <div> é só uma divisão básica de conteúdo
+~> <section> - é uma divisão mais complexa
+~> <display> - altera o comportamento do elemento padrão
+~>
+~>
+~>
+~>
+~>
+~>
+~>
+
+
+
+
+
+
+*Resumo sobre o que aprendemos sobre tabelas:*
+A criar uma tabela HTML
+A tag table, que representa a tabela
+A tag tr, que representa a linha da tabela
+A tag td, que representa a célula da tabela
+A tag thead, que representa o cabeçalho da tabela
+A tag tbody, que representa o corpo da tabela
+A tag th, que representa a célula do cabeçalho da tabela
+A tag tfoot, que representa o rodapé da tabela
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+***CSS***
+~> Para linkar o CSS com o HTML -> file -> new file -> CTRL+S -> salvar no mesmo diretório como style.css -> depois no corpo do HTML dentro de head linkar escrevendo  <link rel="stylesheet" href="style.css"> 
+~> Cores - pode ser usada em númerico,rgb e hexadecimal
+~> Marcador de identificação ID - o nome tem que ser o mesmo do HTML e no CSS é usado o símbolo # (talha) e o nome do identificador
+~> Imagens - a tag img serve para chamar a imagem, por ser um arquivo externo é necessário dizer onde está a imagem e para isso é necessário usar a propriedade src (source) e dizer onde está a imagem (usando o nome da imagem acompanhado da extensão, exemplo: céu.jpg)
+<img src="banner.jpg">
+~> Dimensões em CSS - 4 parâmetros importantes, largura, altura espaçamentos internos e externos.
+~> Width - é a propriedade que devemos manipular para alterar a largura do elemento
+~> RESET - contém todos as tags
+~> em - multiplica o tamanho base do titulo principal pelo dobro do valor
+~> Float - Quando utilizamos este recurso,o elemento "descola" da página mas o que seria a sua sombra, continua sendo ocupada virtualmente, isto é, o texto respeita esse espaço ocupado.
+~>
+~>
+~>
+~>
+
+
+
+
+
+
+***Console
+Position: absolute, posiciona o elemento em qualquer lugar da página.
+
+
+***Perguntas Alura
+
+->Como se comporta um elemento que tem o seu display com o valor inline-block?
+Resposta: Com o tamanho do seu conteúdo, mas regulável.
+
+->Qual o comportamento do elemento quando adiciono espaçamento interno, o padding?
+Resposta: O elemento aumenta o seu tamanho. Quando declaro que existe um espaçamento interno, estou aumentando o conteúdo.
+
+->Quando adiciono a seguinte declaração de borda:
+
+border: 3px solid #000000;
+
+Qual o comportamento esperado?
+Resposta:Uma borda solida, com 3 pixels de largura, entre o padding e a margin. Na estrutura de "caixas" do CSS, a borda fica posicionada entre o padding e a margin.
+
+->Como usar o CSS para fazer os desenhos de cantos arredondados das bordas?
+Reposta: Usando a propriedade border-radius.Com a propriedade border-radius, podemos desenhar o canto arredondado dos elementos.
+
+
+->Em quais elementos consigo alterar o seu visual através do seu comportamento com CSS?
+Resposta:Em todos os elementos do HTML consigo mapear o comportamento com CSS e alterar o visual do elemento.
+
+->Quando podemos utilizar o comportamento do hover em um elemento?
+Resposta: No hover, mapeamos o comportamento do mouse por cima do elemento, e podemos usar isso para destacar visualmente o elemento em questão.
+
+->Como adicionamos uma imagem de fundo em um elemento?
+Resposta: No CSS, ao referenciarmos o endereço de uma imagem, usamos o valor url.
+
+->Que tipos de caracteres especiais podemos usar no nosso texto?
+Resposta: Os caracteres Unicode estão disponíveis para serem usados como um complemento ao nosso texto.
+
+->Qual propriedade devo alterar para que os meus <input> tenham um espaço entre a borda e o conteúdo?
+RespostaA propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda.
+
+->Qual a propriedade de um input do tipo radio que preciso criar para que eles façam parte do mesmo grupo?
+Resposta: A propriedade name só pode ser "preenchida" uma única vez, por isso que, quando eu seleciono um dos itens, ele desmarca o outro, mantendo somente um selecionado.
+
+
+->Qual a melhor abordagem quando temos uma configuração de CSS aplicada para um item e queremos replicar ela para um item parecido?
+Resposta: Usar os seletores dos itens separados por vírgula e criar classes.
+
+->Como transformamos um campo comum em um de preenchimento obrigatório?
+Resposta: Adicionando a propriedade required.Quando adicionamos a propriedade required, o navegador nos ajuda a validar se aquele campo está preenchido.
+
+->Qual tag usamos para marcar um título de um grupo de campos do formulário?
+Resposta: A tag <legend> que é utilizada para um título de um grupo de campos em qualquer formulário.
+
+->Como configurar a transição visual de um elemento, que dure 3 segundos?
+Resposta: transition: 3s;
+Utilizamos a propriedade transition para prover uma transição visual de um elemento.
+
+->Qual propriedade do CSS usamos para aumentar um elemento proporcionalmente?
+Resposta: Utilizamos a propriedade transform: scale() para aumentar um elemento proporcionalmente.
+
+->Qual tag uso para criar linhas em uma tabela?
+Resposta: Utilizamos a tag <tr> para marcar uma linha de uma tabela.
+
+->Como dividir uma tabela de forma mais semântica?
+Resposta: As tags <thead>, <tbody> e <tfoot> ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico.
+
+->Qual a diferença entre usar uma <div> ou uma <section>?
+Resposta: Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>.
+
+->Ao criar um estilo qualquer, qual o melhor padrão para marcar o nosso conteúdo, ao criar uma classe?
+Resposta: Um balanço é a melhor alternativa. Nem tão específica, para poder repetir as classes, e nem tão genérica, para poder não precisar combinar classes.
+
+->Para que serve a propriedade float?
+Resposta: Tanto o float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele
+
+
+->Analise os seguintes benefícios de usar fontes externas:
+
+1) Padronizar o nosso conteúdo em todos os navegadores
+
+2) Deixar o site mais bonito, com visual mais exclusivo.
+
+3) Termos mais alternativas de fonte
+
+Quais das afirmativas acima realmente são benefícios de usar fontes externas?
+Rsposta: Todas as afirmativas.Usar fontes externas é uma alternativa muito funcional para termos mais opções, que deixam o nosso site mais bonito e exclusivo, e também padronizado em todos os navegadores.
+
+->
+
+->
+
+->
+
+->
+
+->
+
+
+
+
+
+
+***Sites
+Unicode - símbolos - http://xahlee.info/comp/unicode_stars.html
+Mobile input types - mostra visualmente quando se está usando um html 5 na versão de celular
+Google fonts - https://fonts.google.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
